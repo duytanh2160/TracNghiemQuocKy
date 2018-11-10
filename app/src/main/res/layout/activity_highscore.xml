@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/TxtTuaDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm cao"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart"
+            android:layout_width="360dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/TxtTuaDe"
+            android:layout_marginTop="30dp"
+            android:background="#ffffff"
+            />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

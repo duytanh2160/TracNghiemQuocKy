@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.son.tracnghiemquocky.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundmenu">
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="46dp"
+            android:layout_alignTop="@+id/BtnEasyMode"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/alien1" />
+
+        <Button
+            android:id="@+id/BtnEasyMode"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/buteasy"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="46dp"
+            android:layout_alignTop="@+id/BtnMediumMode"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/alien2" />
+
+        <Button
+            android:id="@+id/BtnMediumMode"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/BtnEasyMode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/butmedium" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="46dp"
+            android:layout_alignTop="@+id/BtnHardMode"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/alien3" />
+
+        <Button
+            android:id="@+id/BtnHardMode"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/BtnMediumMode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buthard" />
+
+        <Button
+            android:id="@+id/BtnHighScore"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/BtnHardMode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/butblank"
+            android:text="HIGHSCORE"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/BtnManual"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/BtnHighScore"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/butmanual" />
+
+        <Button
+            android:id="@+id/BtnExit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/BtnManual"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/butexit" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

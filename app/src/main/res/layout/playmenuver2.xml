@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ImgFlag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtResult"
+        android:text="de day truoc, co gi thi xoa :))"
+        android:textSize="20sp"
+        android:layout_below="@id/ImgFlag"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnA"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_below="@id/TxtResult"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnB"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_below="@id/TxtResult"
+        android:layout_toRightOf="@id/BtnA"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnC"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_below="@id/BtnA"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnD"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_below="@id/BtnB"
+        android:layout_toRightOf="@id/BtnC"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>
